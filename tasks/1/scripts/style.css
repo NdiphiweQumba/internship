@@ -1,0 +1,135 @@
+body {
+    background-color: #212224;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #4f4f66;
+    overflow: hidden;
+    height: 63px;
+    border-radius: 13px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #000;
+    background-color: #ddd;
+}
+
+.left_pane {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #313142;
+    opacity: 0.8;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: .5s;
+    align-items: center;
+}
+
+.left_pane a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 10px 10px 30px;
+    transition: 0.4s;
+    display: block;
+}
+
+.left_pane a:hover {
+    background-color: #000;
+}
+
+.left_pane .close-btn {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.left_pane ul li.active {
+    width: 250px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4f4f66;
+    width: 800px;
+    height: 680px;
+    position: absolute;
+    color: rgb(134, 130, 130);
+    text-align: center;
+    border-radius: 1.5%;
+}
+
+#main h1 {
+    text-align: center;
+}
+
+#main p {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#main .containter .item .item_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main .containter .item .item_info p {
+    width: 150px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+#main .containter .item.cyber .item_info p {
+    color: #8cc5e6;
+}
+
+#main .containter .item.phishing .item_info p {
+    color: #8cc5e6;
+}
+
+#main .containter .item.socialEng .item_info p {
+    color: #8cc5e6;
+}
+
+#main .containter .item.malware .item_info p {
+    color: #8cc5e6;
+}
+
+#main .containter .item.rw .item_info p {
+    color: #8cc5e6;
+}
+
+#main .containter .item.hardwareAndSoftware .item_info p {
+    color: #8cc5e6;
+}
+
+#main .containter .item p {
+    color: #8cc5e6;
+    font-size: 15px;
+    padding-top: 100px;
+}

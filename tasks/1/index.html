@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The CyberSec Cliniq information</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/tasks/1/scripts/style.css">
+</head>
+
+<body id="bodyC">
+    <nav class="navbar">
+        <span class="open-left-pane">
+            
+            <!--Click The Top Left Button to Open the Left Pane and Click on any to Display
+            the information About on the right-->
+            
+                <a href="#" onclick="open_left_pane()">
+                  <svg width="30" height="30">
+                         <path d="M0,5 30,5" stroke="#fff"
+                        stroke-width="5"/>
+                        <path d = "M0, 14 30, 14" stroke="#fff"
+                        stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff"
+                        stroke-width="5"/>
+                    </svg>
+                </a>
+            </span>
+
+    </nav>
+    <div id="left_menu" class="left_pane">
+        <ul>
+
+            <!--Click The X or close button to Close the Left side of the Page-->
+
+            <a href="#" onclick="close_left_pane()" class="close-btn">&times;</a>
+            <li data-li="cyber" class="active"><a href="#">What Is Cyber Security</a></li>
+            <li data-li="phishing"><a href="#">Phishing</a></li>
+            <li data-li="socialEng"><a href="#">Social Engineering</a></li>
+            <li data-li="malware"><a href="#">Malicious Ware</a></li>
+            <li data-li="rw"><a href="#">RansomWare</a></li>
+            <li data-li="hardwareAndSoftware"><a href="#">Computers</a></li>
+
+        </ul>
+    </div>
+
+    <div id="main">
+        <img src="assets/img/logo-black.png" />
+        <div class="containter">
+            <div class="item cyber">
+                <div class="item_info">
+                    <p>
+                        About Cyber Security
+                    </p>
+                </div>
+                <p>
+                    Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business
+                    processes. Implementing effective cybersecurity measures is particularly challenging today because there are more devices than people, and attackers are becoming more innovative
+                </p>
+            </div>
+            <div class="item phishing" style="display: none;">
+                <div class="item_info">
+                    <p>
+                        CyberSecurity Threat One
+                    </p>
+                </div>
+                <p>
+                    <b>Phishing</b> is the practice of sending fraudulent emails that resemble emails from reputable sources. The aim is to steal sensitive data like credit card numbers and login information. It’s the most common type of cyber attack.
+                    You can help protect yourself through education or a technology solution that filters malicious emails.
+                </p>
+            </div>
+            <div class="item socialEng" style="display: none;">
+                <div class="item_info">
+                    <p>
+                        Social Engineering
+                    </p>
+
+                </div>
+                <p>
+                    Social engineering is a tactic that adversaries use to trick you into revealing sensitive information. They can solicit a monetary payment or gain access to your confidential data. Social engineering can be combined with any of the threats listed above
+                    to make you more likely to click on links, download malware, or trust a malicious source.
+                </p>
+            </div>
+            <div class="item rw" style="display: none;">
+                <div class="item_info">
+                    <p>
+                        Ransom-Ware
+                    </p>
+                </div>
+                <p>
+                    Ransomware is a type of malicious software. It is designed to extort money by blocking access to files or the computer system until the ransom is paid. Paying the ransom does not guarantee that the files will be recovered or the system restored.
+                </p>
+            </div>
+            <div class="item malware" style="display: none;">
+                <div class="item_info">
+                    <p>
+                        Malicious-Ware
+                    </p>
+                </div>
+                <p>
+                    Malware is a type of software designed to gain unauthorized access or to cause damage to a computer.
+                </p>
+            </div>
+            <div class="item hardwareAndSoftware" style="display: none;">
+                <div class="item_info">
+                    <p>
+                        Computers Hardware and Software
+                    </p>
+                </div>
+                <p>
+                    Hardware refers to the physical elements of a computer. This is also sometime called the machinery or the equipment of the computer. Examples of hardware in a computer are the keyboard, the monitor, the mouse and the central processing unit. However,
+                    most of a computer's hardware cannot be seen; in other words, it is not an external element of the computer, but rather an internal one, surrounded by the computer's casing (tower). A computer's hardware is comprised of many different
+                    parts, but perhaps the most important of these is the motherboard. The motherboard is made up of even more parts that power and control the computer.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/tasks/1/scripts/main.js"></script>
+</body>
+
+</html>
